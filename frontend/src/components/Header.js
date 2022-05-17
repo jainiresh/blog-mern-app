@@ -14,7 +14,7 @@ import { authActions } from '../store';
 
 const Header = () => {
   const dispatch = useDispatch;
-  const isLoggedIn = useSelector(state=> state.isLoggedIn);
+  const isLoggedIn = useSelector(state => state.isLoggedIn);
   const[value, setValue] = useState();
   return (
     <AppBar

@@ -1,0 +1,25 @@
+{
+  "name": "blog-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client" : "cd frontend && npm start",
+    "server" : "cd backend && npm start",
+    "start" : "concurrently \"npm run client\" \"npm run server\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jainiresh/blog-mern-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jainiresh/blog-mern-app/issues"
+  },
+  "homepage": "https://github.com/jainiresh/blog-mern-app#readme",
+  "dependencies": {
+    "concurrently": "^7.2.0"
+  }
+}
