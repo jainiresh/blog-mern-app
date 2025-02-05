@@ -5,6 +5,7 @@ import mongoose from 'mongoose';
 import blogRouter from './routes/blog-routes';
 import userRouter from './routes/user-route';
 import cors from 'cors';
+//wow
 
 const app = express();
 
